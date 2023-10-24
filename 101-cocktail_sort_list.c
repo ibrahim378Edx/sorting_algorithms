@@ -26,7 +26,9 @@ if (c->n == c->next->n)
 else if (c->n > c->next->n && ct == INCREMENT)
 	swapper(list, c), print_list(*list);
 else if (c->next->n < c->n && ct == DECREMENT)
-    swapper(list, c), c = c->prev, print_list(*list);
+{
+swapper(list, c), c = c->prev, print_list(*list);
+}
 else if (ct == INCREMENT)
 	c = c->next;
 else if (ct == DECREMENT)

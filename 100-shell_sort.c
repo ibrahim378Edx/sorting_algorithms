@@ -16,10 +16,10 @@ int in = 0, out = 0, r = 1, a = 0;
 
 if (!array || size < 2)
 {
-	return;
+return;
 }
 while (r < (int) size / 3)
-{		
+{
 r = r * 3 + 1;
 }
 while (r > 0)

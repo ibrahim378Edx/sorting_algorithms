@@ -17,7 +17,7 @@ if (!list || !(*list) || !(*list)->next)
 
 c = *list;
 lt = c;
-rt = get_dlimit(*list);
+rt = get_limit(*list);
 
 while (lt != rt)
 {

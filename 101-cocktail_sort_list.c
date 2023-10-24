@@ -92,7 +92,7 @@ listint_t *c = h;
 
 while (c->next != NULL)
 {
-c = curr->next;
+c = c->next;
 }
 return (c);
 }

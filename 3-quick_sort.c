@@ -19,7 +19,7 @@ quick_sort_r(array, 0, size - 1, size);
 }
 
 /**
-  * quick_sort_rec - recursion
+  * quick_sort_r - recursion
   *
   * @array: list
   *
